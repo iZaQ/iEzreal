@@ -7,8 +7,8 @@
     <ProjectGuid>{396DB91C-48E9-4C45-8EDE-712954D9EBF5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AkiEzreal</RootNamespace>
-    <AssemblyName>AkiEzreal</AssemblyName>
+    <RootNamespace>iEzreal</RootNamespace>
+    <AssemblyName>iEzreal</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <PreBuildEvent />
