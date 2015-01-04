@@ -82,6 +82,8 @@ namespace PrimeiroScript
 
             
             iMenu.AddItem(new MenuItem("Packet", "Packet Casting").SetValue(true));
+            iMenu.AddItem(new MenuItem("Packet", "V.0.1")
+            iMenu.AddItem(new MenuItem("Packet", "iZaQ")
            
             iMenu.AddToMainMenu();
 
