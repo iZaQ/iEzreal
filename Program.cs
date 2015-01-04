@@ -82,7 +82,7 @@ namespace PrimeiroScript
 
             
             iMenu.AddItem(new MenuItem("Packet", "Packet Casting").SetValue(true));
-           
+            iMenu.AddSubMenu(new Menu("Combo", "iZaQ V1.0 iEz"));
             iMenu.AddToMainMenu();
 
             Drawing.OnDraw += Drawing_OnDraw;
