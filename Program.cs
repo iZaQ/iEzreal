@@ -82,8 +82,8 @@ namespace PrimeiroScript
 
             
             iMenu.AddItem(new MenuItem("Packet", "Packet Casting").SetValue(true));
-            iMenu.AddSubMenu(new Menu("Combo", "iZaQ V1.0 iEz"));
             iMenu.AddToMainMenu();
+            iMenu.AddSubMenu(new Menu("iZaQ V1.0 iEz", "iZaQ V1.0 iEz"));
 
             Drawing.OnDraw += Drawing_OnDraw;
             Game.OnGameUpdate += Game_OnGameUpdate;
