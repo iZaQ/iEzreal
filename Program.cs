@@ -54,29 +54,29 @@ namespace PrimeiroScript
             iMenu.AddSubMenu(ts);
            
             iMenu.AddSubMenu(new Menu("Combo", "Combo"));
-            iMenu.SubMenu("Combo").AddItem(new MenuItem("useQ", "Usar Q?").SetValue(true));
-            iMenu.SubMenu("Combo").AddItem(new MenuItem("useW", "Usar W?").SetValue(true));
-            iMenu.SubMenu("Combo").AddItem(new MenuItem("useR", "Usar R?").SetValue(true));
-            iMenu.SubMenu("Combo").AddItem(new MenuItem("useItems", "Usar Items?").SetValue(true));
+            iMenu.SubMenu("Combo").AddItem(new MenuItem("useQ", "Use Q?").SetValue(true));
+            iMenu.SubMenu("Combo").AddItem(new MenuItem("useW", "Use W?").SetValue(true));
+            iMenu.SubMenu("Combo").AddItem(new MenuItem("useR", "Use R?").SetValue(true));
+            iMenu.SubMenu("Combo").AddItem(new MenuItem("useItems", "Use Items?").SetValue(true));
             iMenu.SubMenu("Combo").AddItem(new MenuItem("ComboActive", "Combo").SetValue(new KeyBind(32, KeyBindType.Press)));
 
             iMenu.AddSubMenu(new Menu("Harass", "Harass"));
-            iMenu.SubMenu("Harass").AddItem(new MenuItem("hQ", "Usar Q?").SetValue(true));
-            iMenu.SubMenu("Harass").AddItem(new MenuItem("hW", "Usar W?").SetValue(true));
-            iMenu.SubMenu("Harass").AddItem(new MenuItem("Harassmana", "Mana para usar").SetValue(new Slider(30)));
+            iMenu.SubMenu("Harass").AddItem(new MenuItem("hQ", "Use Q?").SetValue(true));
+            iMenu.SubMenu("Harass").AddItem(new MenuItem("hW", "Use W?").SetValue(true));
+            iMenu.SubMenu("Harass").AddItem(new MenuItem("Harassmana", "Mana % ").SetValue(new Slider(30)));
             iMenu.SubMenu("Harass").AddItem(new MenuItem("HarassActive", "Harass").SetValue(new KeyBind('C', KeyBindType.Press)));
             iMenu.SubMenu("Harass").AddItem(new MenuItem("HarassToggle", "Harass").SetValue(new KeyBind('T', KeyBindType.Toggle)));
 
             iMenu.AddSubMenu(new Menu("Killsteal", "Killsteal"));
-            iMenu.SubMenu("Killsteal").AddItem(new MenuItem("KillQ", "Roubar com Q?").SetValue(true));
-            iMenu.SubMenu("Killsteal").AddItem(new MenuItem("KillW", "Roubar com W?").SetValue(true));
-            iMenu.SubMenu("Killsteal").AddItem(new MenuItem("KillR", "Roubar com R?").SetValue(true));
-            iMenu.SubMenu("Killsteal").AddItem(new MenuItem("KillI", "Roubar com Ignite?").SetValue(true));
+            iMenu.SubMenu("Killsteal").AddItem(new MenuItem("KillQ", "Use  Q?").SetValue(true));
+            iMenu.SubMenu("Killsteal").AddItem(new MenuItem("KillW", "Use  W?").SetValue(true));
+            iMenu.SubMenu("Killsteal").AddItem(new MenuItem("KillR", "Use  R?").SetValue(true));
+            iMenu.SubMenu("Killsteal").AddItem(new MenuItem("KillI", "Use  Ignite?").SetValue(true));
 
             iMenu.AddSubMenu(new Menu("Drawing", "Drawing"));
-            iMenu.SubMenu("Drawing").AddItem(new MenuItem("DrawQ", "Mostrar Q?").SetValue(true));
-            iMenu.SubMenu("Drawing").AddItem(new MenuItem("DrawW", "Mostrar W?").SetValue(true));
-            iMenu.SubMenu("Drawing").AddItem(new MenuItem("DrawAA", "Mostrar Range?").SetValue(true));
+            iMenu.SubMenu("Drawing").AddItem(new MenuItem("DrawQ", "Draw Q?").SetValue(true));
+            iMenu.SubMenu("Drawing").AddItem(new MenuItem("DrawW", "Draw W?").SetValue(true));
+            iMenu.SubMenu("Drawing").AddItem(new MenuItem("DrawAA", "Draw Range?").SetValue(true));
             
 
 
@@ -88,7 +88,7 @@ namespace PrimeiroScript
             Drawing.OnDraw += Drawing_OnDraw;
             Game.OnGameUpdate += Game_OnGameUpdate;
 
-            Game.PrintChat("<font color=\"#FFF300\">iEzreal</font>"+ " Injected!");
+            Game.PrintChat("<font color=\"#FFF300\">iEzreal by iZaQ</font>"+ " Injected!");
         }
 
         static void Game_OnGameUpdate(EventArgs args)
@@ -237,7 +237,7 @@ namespace PrimeiroScript
             }
 
 
-            Game.PrintChat("<font=\"#FFF300\">iEzreal", " Injected!");
+            Game.PrintChat("<font=\"#FFF300\">iEzreal by iZaQ", " Injected!");
 
 
 
